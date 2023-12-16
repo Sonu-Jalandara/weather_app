@@ -1,0 +1,164 @@
+@media screen and (max-width:992px) {
+    .weather-section {
+        display: block;
+    }
+
+    .weather-left {
+        margin: 30px auto;
+        width: 50vw;
+    }
+
+
+    .weather-parameter {
+
+        width: 20vw;
+    }
+
+    .weather-right {
+        margin: 0 76px;
+    }
+
+    .weather-section .title2,
+    .weather-section .title1 {
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .location-card {
+        height: 21vh;
+    }
+
+    .city {
+        font-size: 33px;
+    }
+
+    .temp {
+        font-size: 20px;
+        margin-top: 11px;
+    }
+
+    .weather-parameter {
+
+        width: 26vw;
+    }
+
+    .weather-section .title2,
+    .weather-section .title1,
+    .weather-left {
+        width: 64vw;
+    }
+
+    .weather-right {
+        margin: 0 9px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    body{
+        background-repeat: repeat;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        padding: 14px 20px;
+    }
+
+    .symbol {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+    }
+
+    .search-menu.active {
+      display: none;
+    }
+
+    .search-menu {
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 17px;
+        transition: 0.1s ease-in-out;
+    }
+
+    .srch {
+        height: 6vh;
+        font-size: 16px;
+    }
+
+    .location-card {
+        width: 56vw;
+    }
+
+    .weather-section {
+        margin: 28px 91px;
+    }
+
+    #parameter {
+        font-size: 16px;
+    }
+
+    .ft-29 {
+        font-size: 25px;
+    }
+
+    .unit {
+        font-size: 14px;
+    }
+
+    .days-7 ul {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .location-card {
+        width: 64vw;
+        height: 18vh;
+    }
+
+    .city {
+        font-size: 26px;
+    }
+
+    .temp {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    .weather-left {
+        gap: 16px;
+    }
+
+    .weather-section .title2,
+    .weather-section .title1,
+    .weather-left {
+        width: 67vw;
+    }
+
+    .weather-parameter {
+        width: 31vw;
+        height: 20vh;
+    }
+
+    .weather-section {
+        margin: 28px 59px;
+    }
+
+    .weather-right {
+        margin: 0;
+    }
+
+    .days-7 ul {
+        justify-content: space-around;
+    }
+}
